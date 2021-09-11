@@ -1,0 +1,9 @@
+@import "../stylesCommon/StyleAuth";
+
+.page {
+  @include displayFlex(row,center,center);
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+  background: linear-gradient(180deg, #a18cd0 0%, #6d5dce 100%);
+}
